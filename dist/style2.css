@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color: #191919;
+    overflow: hidden;
+}
+
+#date{
+    padding: 10px;
+    margin-top: 15%;
+    color: #8a8a8a;
+}
+
+#date ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#date li{
+    margin-inline: 20px;
+    font-size: 25px;
+}
+
+#date .current{
+    color: #00ff97;
+    font-size: 50px;
+}
+
+#time{
+    padding: 10px;
+    margin-top: 1%;
+    color: #00ff97;
+}
+
+#time ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#time li{
+    margin-inline: 20px;
+    font-size: 100px;
+}
+
+.dot{
+    font-size: 80px;
+}
+
+#time-formats{
+    top: 0;
+    padding: 10px;
+}
+
+#time-formats ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+}
+
+#time-formats a{
+    text-decoration: none;
+    font-size: 25px;
+    margin-inline: 30px;
+    color: #8a8a8a;
+}
+
+#time-formats .numeric a{
+    color: #00ff97;
+}
+
+@media (max-width:768px){
+    #date{
+        margin-top: 40%;
+        padding: 15px;
+    }
+
+    #date li{
+        margin-inline: 10px;
+        font-size: 15px;
+    }
+    
+    #date .current{
+        font-size: 20px;
+    }
+
+    #time li{
+        font-size: 70px;
+    }
+    
+    .dot{
+        font-size: 70px;
+    }
+
+    #time-formats a{
+        font-size: 20px;
+    }
+    
+    #time-formats .hours a{
+        font-size: 25px;
+    }
+}
