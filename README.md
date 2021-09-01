@@ -1,4 +1,4 @@
-# clock
+# Clock
 
 A basic clock that can be configured in both 12hr and 24hr format.
 
